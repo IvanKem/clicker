@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Cliker</title>
+    <style>
+      #id1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      body {
+        text-align: center;
+        padding: 0;
+        margin:0;
+      }
+      button {
+        width: 150px;
+        height: 150px;
+        border-radius: 125px;
+        color: white;
+        background-color: black;
+        font-size: 15px;
+        font-family: verdana;
+        box-shadow: 0px 0px 6px white;
+        border: none;
+        outline: none !important;
+        transition: linear 0.5s all;
+      }
+      button:active {
+        width: 140px;
+        height: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="id1">
+      <div>
+        <h1>Кликов сделано : 0</h1>
+        <button>Click</button>
+      </div>
+    </div>
+    <script src="../static/main.js"></script>
+  </body>
+</html>
